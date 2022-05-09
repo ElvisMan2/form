@@ -1,0 +1,66 @@
+.contenedor{
+        width: 100%;
+        background-image: url(./wallpaper.jpg);
+        background-size: cover;
+        position: absolute;
+}
+
+.formulario { 
+        width: 400px;
+        height: 400px; 
+        background-color: black; 
+        opacity: 85%;
+        color: white;
+        border-radius: 10px;
+        margin: 150px auto 150px auto;
+        position: relative;
+        }
+
+
+.formulario form{   
+        padding: 0px 50px 0px 50px;
+
+        }
+
+
+
+
+
+.formulario form input {
+        width: 300px;
+        margin: 5px 0px 10px 0px;
+                }
+
+.formulario h1 {
+        padding-top: 120px;
+        text-align: center;
+}
+
+.formulario img {   position: absolute;
+        margin: 0;
+        left: 100px;
+        top: -100px;
+        width: 200px;
+        height: 200px; 
+        background-color: red;
+        border-radius: 50%;
+}
+
+.formulario .btn {
+        background-color: red;
+        border: none;
+        width: 150px;
+        height: 30px;
+        display: box;
+        margin-left: 75px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        cursor: pointer;
+}
+
+.formulario  a {
+        text-decoration: none;
+        color: white;
+        margin: 15px auto 10px 50px;
+        }
